@@ -402,8 +402,3 @@ func (c *Client) NewChangeMarginTypeService() *ChangeMarginTypeService {
 func (c *Client) NewUpdatePositionMarginService() *UpdatePositionMarginService {
 	return &UpdatePositionMarginService{c: c}
 }
-
-// NewGetPositionInformationService init get position service
-func (c *Client) NewGetPositionInformationService() *GetPositionInformationService {
-	return &GetPositionInformationService{c: c}
-}
